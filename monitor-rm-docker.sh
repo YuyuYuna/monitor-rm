@@ -9,7 +9,7 @@ docker stop netdata
 
 docker rm netdata
 
-docker image rm netdata
+docker image rm netdata/netdata
 
 echo -e "I ${Green}Uninstall completed! Bye ~ Netdata."
 ##End
